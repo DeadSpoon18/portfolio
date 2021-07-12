@@ -261,12 +261,18 @@ body {
   }
 }
 
+.info-text p{
+  margin-top: 1rem;
+}
+
 @media (max-width: 480px) {
   .pc-only {
     display: none;
   }
   .info-text {
     margin-top: 1rem;
+    margin-left: 0.85rem;
+    margin-right: 0.85rem;
   }
   .info-text p{
     margin-top: 1rem;
