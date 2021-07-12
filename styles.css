@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -157,8 +158,6 @@ body {
 
 .contentContainer {
   padding: 20px;
-  border-radius: 10px;
-  border: 1px solid rgb(79, 34, 121);
 }
 
 /*///////////////////////////////////////////////////////
@@ -266,6 +265,18 @@ body {
   .pc-only {
     display: none;
   }
+  .info-text {
+    margin-top: 1rem;
+  }
+  .info-text p{
+    margin-top: 1rem;
+  }
+  .arrow {
+    color: #fff;
+  }
+  .arrow:visited {
+    color: #fff;
+  }
 }
 
 .pg-4 {
@@ -331,4 +342,10 @@ body {
 .fa-arrow-right {
   -webkit-animation: bounceRight 2s infinite;
   animation: bounceRight 2s infinite;
+}
+
+.info-text {
+  background: rgba(0, 0, 0, 0.253);
+  border-radius: 2%;
+  overflow: hidden;
 }
